@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Arch Door Co. | Static Website
 
-# Run and deploy your AI Studio app
+This is the pure static version of the Arch Door Co. interactive landing page.
 
-This contains everything you need to run your app locally.
+## Project Structure
+- `index.html`: The main entry point. Reconstructed using standard semantic HTML.
+- `styles.css`: All styling, including the rich material palette and layout utility classes.
+- `script.js`: Recreates the interactive scroll-driven animations and reveal-on-scroll effects using Vanilla JavaScript.
+- `/assets/`: Place local images here and update paths in `index.html` as needed.
 
-View your app in AI Studio: https://ai.studio/apps/f464d53b-7837-4c03-97a3-b88d2f939e90
+## Features
+- **Zero Dependencies**: Runs without Node.js, React, or build steps.
+- **Scroll-Driven Door**: A custom JS implementation of the 3D pivoting door.
+- **Perspective Effects**: Standard CSS 3D transforms.
+- **Agency-Quality Polish**: Preserves the material textures and smooth motion of the original design.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## How to use
+Simply double-click `index.html` to view the site in any modern web browser. 
+Can be deployed directly to GitHub Pages, Cloudflare Pages, or any static host.

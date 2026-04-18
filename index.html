@@ -1,13 +1,147 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arch Door Co. | Universal Door Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="italic-fixes">
+    <div class="grain-overlay"></div>
 
+    <nav class="navigation">
+        <a href="#" class="nav-link">Collections</a>
+        <a href="#" class="nav-link">Bespoke</a>
+        <a href="#" class="nav-link">Showroom</a>
+        <a href="#" class="nav-link contact-cta">Contact</a>
+    </nav>
+
+    <main class="experience-container" id="main-experience">
+        <div class="sticky-viewport">
+            <!-- Sidebar -->
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-intro entrance-animate" style="--delay: 0s">
+                    <div class="brand-accent-line"></div>
+                    <span class="brand-name">Arch Door Co.</span>
+                </div>
+
+                <div class="hero-content" id="hero-content">
+                    <h1 class="hero-title entrance-animate" style="--delay: 0.2s">
+                        Universal<br>
+                        <span class="accent-text">Solutions</span><br>
+                        Unified By<br>
+                        Vision
+                    </h1>
+                    
+                    <p class="hero-description entrance-animate" style="--delay: 0.5s">
+                        The leading provider of high-performance door solutions for contractors, developers, and homeowners. Serving commercial horizons and bespoke retreats.
+                    </p>
+
+                    <div class="stakeholder-badges entrance-animate" style="--delay: 0.7s">
+                        <span class="badge">Contractors</span>
+                        <span class="badge">Architects</span>
+                        <span class="badge">Developers</span>
+                        <span class="badge">Homeowners</span>
+                    </div>
+
+                    <div class="capabilities-grid entrance-animate" style="--delay: 0.9s">
+                        <div class="stat-item">
+                            <span class="stat-label">Scope</span>
+                            <span class="stat-value">Residential & Industrial</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Distribution</span>
+                            <span class="stat-value">Global Fulfillment</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Engineering</span>
+                            <span class="stat-value">Pivot & Bespoke</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Support</span>
+                            <span class="stat-value">24/7 Consultation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-actions entrance-animate" style="--delay: 1.1s">
+                    <a href="#" class="btn btn-primary">Request a Quote</a>
+                    <a href="#" class="btn btn-secondary">View Catalog</a>
+                </div>
+            </aside>
+
+            <!-- Interactive Perspective Area -->
+            <section class="visual-canvas">
+                <div class="leather-texture"></div>
+                <div class="bg-infinity" id="bg-infinity">∞</div>
+
+                <div class="interior-reveal" id="interior-reveal">
+                    <div class="reveal-grid">
+                        <div class="grid-cell"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070" alt="Living" referrerPolicy="no-referrer"></div>
+                        <div class="grid-cell"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2069" alt="Office" referrerPolicy="no-referrer"></div>
+                        <div class="grid-cell"><img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=2127" alt="Modern" referrerPolicy="no-referrer"></div>
+                        <div class="grid-cell"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070" alt="Facade" referrerPolicy="no-referrer"></div>
+                    </div>
+                </div>
+
+                <div class="door-assembly">
+                    <div class="door-backglow"></div>
+                    <div class="door-panel" id="door-panel">
+                        <div class="door-sheen" id="door-sheen"></div>
+                        <div class="door-handle">
+                            <div class="handle-bar"></div>
+                            <div class="handle-cap cap-top"></div>
+                            <div class="handle-cap cap-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <section class="legacy-section">
+        <div class="legacy-container">
+            <div class="legacy-info reveal-scroll">
+                <h2>Legacy</h2>
+                <p>From historical restorations to ultra-modern masterworks, Portal Doors combines ancient techniques with modern precision engineering. Every door is a unique commission.</p>
+            </div>
+            <div class="legacy-visuals">
+                <img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1974" class="legacy-img reveal-scroll" style="--reveal-delay: 0s" alt="Craft" referrerPolicy="no-referrer">
+                <img src="https://images.unsplash.com/photo-1582234372722-50d7ccc30e5a?q=80&w=1974" class="legacy-img img-offset reveal-scroll" style="--reveal-delay: 0.3s" alt="Detail" referrerPolicy="no-referrer">
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="brand-tag">Arch Door Co.</div>
+                <p>Since 1984, we have redefined the threshold between space and time through masterful joinery.</p>
+            </div>
+            <div class="footer-nav">
+                <h6>Contact</h6>
+                <ul>
+                    <li>+1 800 PORTAL</li>
+                    <li>studio@portal.design</li>
+                    <li>@portal_doors</li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h6>Offices</h6>
+                <ul>
+                    <li>New York, NY</li>
+                    <li>London, UK</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Arch Door Co. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
